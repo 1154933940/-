@@ -1,0 +1,147 @@
+html,body{
+	/*height: 100%;*/
+}
+.luckyDraw-Wapper{
+	width: 100%;
+	height: 100%;
+	max-width: 680px;
+	background: url(../images/kefu_bg.png) no-repeat;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: 'PingFangMedium';
+}
+.luckyDraw-Wapper-Title{
+	width: 90%;
+	height: 0.6rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+}
+.luckyDraw-Wapper-Title-Laba{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+}
+.luckyDraw-Wapper-Title-Laba img{
+	width: 40%;
+	height:65%;
+}
+/* 跑马灯动画 */
+/*@keyframes kf-marque-animation{ 
+  0% { transform: translateX(-100%); } 
+  100% { transform: translateX(100%); } 
+}*/
+.marquee_box{
+    width: 100%;
+    background: #fff;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    position: relative;
+    font-size: 0.3rem;
+}
+.marquee_box .marquee_text{
+  animation: kf-marque-animation 5s linear infinite;
+  
+}
+.luckyDraw-Title{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.luckyDraw-Title>div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.35rem;
+	color: #fff;
+}
+.luckyDraw-Title>div:nth-child(1){
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+}
+
+.luckyDraw-Title>div:nth-child(2)>span:nth-child(1),.luckyDraw-Title>div:nth-child(2)>span:nth-child(3){
+	display: flex;
+	width: 0.3rem;
+	height: 1px;
+	background: #fff;
+	margin: 0 10px;
+}
+.luckyDraw-ZhuanPan{
+	width: 100%;
+	height: 7rem;
+	background: url(../images/zhuanpan_bg.png) no-repeat;
+	background-origin: content-box;
+	background-position: center;
+	background-size: contain;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	align-items: center;
+	position: relative;
+}
+.luckyDraw-ZhuanPan img{
+	width: 35%;
+	/*margin-bottom: 35px;*/
+	bottom: 126px;
+	position: absolute;
+}
+.luckyDraw-ZhuanPanInfo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #575E68;
+	font-size: 0.35rem;
+}
+.luckyDraw-ZhuanPanInfo span{
+	display: flex;
+	align-items: center;
+}
+.sum{ 
+	width: 0.5rem;
+	height: 0.5rem;
+	background:#ED0976;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 5px;
+}
+.luckyDraw-MyAdution{
+	width: 50%;
+	height: 0.8rem;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.3rem;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(top, #EB7EA0, #F5B5C9);
+	margin-top: 30px;
+	margin-left: 25%;
+}
+.luckyDraw-guize{
+	width: 100%;
+	height: auto;
+	font-size: 0.25rem;
+	color: #666B6E;
+	display: flex;
+	flex-direction: column;
+	padding:0 30px;
+	box-sizing: border-box;
+	line-height:2.5;
+	margin-top: 10px;
+}

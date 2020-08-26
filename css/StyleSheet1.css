@@ -1,0 +1,387 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none;
+}
+
+    q:before, q:after, blockquote:before, blockquote:after {
+        content: "";
+        content: none;
+    }
+
+a img {
+    border: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.choujiang {
+    max-width: 640px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 200px;
+}
+
+    .choujiang .logo {
+        background: url(/images/system/pricedraw/0.png);
+        background-size: 100% 100%;
+        text-align: center;
+    }
+
+        .choujiang .logo img {
+            width: 70%;
+            padding: 10% 0;
+        }
+
+    .choujiang .huodong {
+        overflow: hidden;
+    }
+
+        .choujiang .huodong .left {
+            width: 60%;
+            text-align: right;
+        }
+
+            .choujiang .huodong .left img {
+                width: 95%;
+            }
+
+        .choujiang .huodong .right {
+            width: 40%;
+        }
+
+            .choujiang .huodong .right div {
+                width: 100%;
+            }
+
+            .choujiang .huodong .right .top img {
+                width: 95%;
+            }
+
+            .choujiang .huodong .right .top {
+                border: 2px solid #d1010a;
+                border-radius: 5px;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                min-height: 150px;
+                width: 90%;
+                height: 100%;
+            }
+
+            .choujiang .huodong .right .bottom ul {
+                padding: 15px 15px 15px 15px;
+            }
+
+            .choujiang .huodong .right .top ul {
+                padding: 10px 10px 10px 0;
+                width: 92%;
+            }
+
+            .choujiang .huodong .right .bottom ul li {
+                width: 100%;
+                margin: 0 auto;
+                font-family: Microsoft yahei;
+                line-height: 20px;
+            }
+
+            .choujiang .huodong .right .top ul li {
+                width: 100%;
+                margin: 0 auto;
+                font-family: Microsoft yahei;
+                line-height: 20px;
+            }
+
+            .choujiang .huodong .right .bottom ul li.lanmu1 {
+                color: #fff;
+                font-size: 0.6rem;
+                /*letter-spacing: 1px;*/
+            }
+
+            .choujiang .huodong .right .top ul li.lanmu1 {
+                color: #000;
+                font-size: 0.8rem;
+                /*letter-spacing: 1px;*/
+                line-height: 21px;
+                height: 26px;
+                text-indent: 15px;
+                background: url(/images/system/pricedraw/sss.png)left 0 no-repeat;
+                background-size: 100% 100%;
+                position: relative;
+                left: -9px;
+            }
+
+            .choujiang .huodong .right .bottom ul li.lanmu1 span.span1 {
+                color: #7DE933;
+            }
+
+            .choujiang .huodong .right .bottom ul li.shuju {
+                color: #333;
+                font-size: 0.7rem;
+            }
+
+            .choujiang .huodong .right .top ul li.jx {
+                font-size: 0.7rem;
+                color: #333;
+                text-indent: 0px;
+                width: 87%;
+                float: right;
+            }
+
+
+            .choujiang .huodong .right .bottom ul li.shuju span.span2, .scrolltext ol li a span.span2 {
+                color: #3C90F0;
+            }
+
+            .choujiang .huodong .right .bottom ul li.shuju span.span3, .scrolltext ol li a span.span3 {
+                color: #FF0000;
+            }
+
+            .choujiang .huodong .right .top ul li.jx span.span1 {
+                color: #FF0000;
+                padding-right: 0.5em;
+            }
+
+    .choujiang .guize {
+        margin-top: 25px;
+    }
+
+        .choujiang .guize div {
+            width: 100%;
+            color: #c51702;
+            overflow: hidden;
+            font-family: Microsoft yahei;
+        }
+
+            .choujiang .guize div.div1 {
+                height: 30px;
+            }
+
+            .choujiang .guize div span {
+                font-size: 16px;
+                padding: 10px 30px 10px 15px;
+                line-height: 30px;
+                background: url(/images/system/pricedraw/5.png)left 0 no-repeat;
+                background-size: 100% 100%;
+            }
+
+            .choujiang .guize div ul li {
+                width: 90%;
+                margin: 0 auto;
+                font-size: 14px;
+                letter-spacing: 1px;
+                line-height: 22px;
+            }
+/* scrolltext */
+.scrolltext {
+    padding: 5px 15px 0 15px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+    .scrolltext ol li {
+        padding-left: 7px;
+        width: 85%;
+        height: 20px;
+        font-size: 0.7rem;
+        line-height: 20px;
+        font-family: Microsoft yahei;
+    }
+
+        .scrolltext ol li a {
+            color: #333;
+            display: block;
+            width: 85%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+    .scrolltext .part {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+        .scrolltext .part span {
+            margin-left: 26px;
+            cursor: pointer;
+        }
+
+#breakNews {
+    padding: 0 0 0px 2px;
+}
+
+    #breakNews .list6 {
+        max-height: 100px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+
+/* 大转盘样式 */
+.banner {
+    display: block;
+    width: 100%;
+}
+
+    .banner .turnplate {
+        display: block;
+        width: 86%;
+        position: relative;
+        left: 1%;
+    }
+
+        .banner .turnplate canvas.item {
+            width: 100%;
+        }
+
+        .banner .turnplate img.pointer {
+            position: absolute;
+            width: 31.5%;
+            height: 42.5%;
+            left: 34.5%;
+            top: 24%;
+        }
+
+.choujiang .huodong .right div.ZLTjilu {
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 13px;
+    text-indent: 10px;
+    background-color: #ffc21a;
+    margin-bottom: 15px;
+    font-family: Microsoft yahei;
+}
+
+    .choujiang .huodong .right div.ZLTjilu a {
+        display: block;
+        color: #000;
+    }
+
+#PrizeInfo {
+    text-align: center;
+}
+
+    #PrizeInfo li {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+.guize {
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 20;
+    background: #fff;
+    display: none;
+    border-radius: 5px;
+}
+
+.guize_index_cd {
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+}
+
+    .guize_index_cd li {
+        line-height: 20px;
+        font-size: 12px;
+        text-align: left;
+        width: 90%;
+        margin: 5px auto 0;
+    }
+
+    .guize_index_cd p em {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        font-style: normal;
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+.lefu-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+    z-index: 3;
+    display: none;
+}
+
+
+.jiangxiang {
+    background: rgba(0,0,0,0.3);
+    width: 80px;
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+    font-size: 12px;
+    position: fixed;
+    left: 5%;
+    top: 50px;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+    .jiangxiang img {
+        height: 16px;
+        float: left;
+    }
+
+    .jiangxiang a {
+        color: #fff;
+    }
+
+.jiangpin {
+    width: 70px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+    .jiangpin img {
+        width: 100%;
+    }
